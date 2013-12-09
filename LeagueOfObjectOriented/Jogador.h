@@ -18,7 +18,7 @@
     
     
 }
-//@property (nonatomic) int raca;
+@property (nonatomic) int raca;
 @property (nonatomic) float vida;
 @property (nonatomic) int forcaEscudo;
 @property (nonatomic) Arma* armaPrimaria;
