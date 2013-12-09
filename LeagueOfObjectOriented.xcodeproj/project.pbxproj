@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		271F245C1854A34F0024E200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271F245B1854A34F0024E200 /* Foundation.framework */; };
 		271F245F1854A34F0024E200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F245E1854A34F0024E200 /* main.m */; };
-		271F24631854A34F0024E200 /* LeagueOfObjectOriented.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271F24621854A34F0024E200 /* LeagueOfObjectOriented.1 */; };
 		271F246B1854F9B30024E200 /* Jogador.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F246A1854F9B30024E200 /* Jogador.m */; };
 		271F246E1854FBB50024E200 /* Arma.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F246D1854FBB50024E200 /* Arma.m */; };
 		271F24711854FEDE0024E200 /* LeagueOfOrientedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F24701854FEDE0024E200 /* LeagueOfOrientedObject.m */; };
@@ -22,7 +21,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				271F24631854A34F0024E200 /* LeagueOfObjectOriented.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -33,7 +31,6 @@
 		271F245B1854A34F0024E200 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		271F245E1854A34F0024E200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		271F24611854A34F0024E200 /* LeagueOfObjectOriented-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeagueOfObjectOriented-Prefix.pch"; sourceTree = "<group>"; };
-		271F24621854A34F0024E200 /* LeagueOfObjectOriented.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeagueOfObjectOriented.1; sourceTree = "<group>"; };
 		271F24691854F9B30024E200 /* Jogador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jogador.h; sourceTree = "<group>"; };
 		271F246A1854F9B30024E200 /* Jogador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jogador.m; sourceTree = "<group>"; };
 		271F246C1854FBB50024E200 /* Arma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arma.h; sourceTree = "<group>"; };
@@ -83,14 +80,13 @@
 			isa = PBXGroup;
 			children = (
 				271F245E1854A34F0024E200 /* main.m */,
-				271F24621854A34F0024E200 /* LeagueOfObjectOriented.1 */,
-				271F24601854A34F0024E200 /* Supporting Files */,
 				271F24691854F9B30024E200 /* Jogador.h */,
 				271F246A1854F9B30024E200 /* Jogador.m */,
 				271F246C1854FBB50024E200 /* Arma.h */,
 				271F246D1854FBB50024E200 /* Arma.m */,
 				271F246F1854FEDE0024E200 /* LeagueOfOrientedObject.h */,
 				271F24701854FEDE0024E200 /* LeagueOfOrientedObject.m */,
+				271F24601854A34F0024E200 /* Supporting Files */,
 			);
 			path = LeagueOfObjectOriented;
 			sourceTree = "<group>";
@@ -269,6 +265,7 @@
 				271F24681854A34F0024E200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

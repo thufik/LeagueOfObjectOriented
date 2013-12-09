@@ -1,11 +1,3 @@
-//
-//  main.m
-//  LeagueOfObjectOriented
-//
-//  Created by Vinicius Miana on 12/8/13.
-//  Copyright (c) 2013 Vinicius Miana. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[])
@@ -17,7 +9,7 @@ int main(int argc, const char * argv[])
         NSLog(@"Hello, World!");
         
         
-        
+        NSLog(@"TESTANDO COMIT");
         
         
     }
