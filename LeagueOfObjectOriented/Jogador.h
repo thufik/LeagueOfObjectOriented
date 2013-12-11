@@ -1,15 +1,8 @@
-//
-//  Jogador.h
-//  Loo
-//
-//  Created by ANDRE GIMENEZ on 11/18/13.
-//  Copyright (c) 2013 Andre_Glauco. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import "Arma.h"
-@class Arena;
+#import "Armadura.h";
 
+@class Arena;
 
 @interface Jogador : NSObject {
     NSString *nome;
@@ -18,6 +11,7 @@
     int forcaEscudo;
     Arma * armaPrimaria;
     Arma * armaSecundaria;
+    Armadura * armadura;
 }
 
 +(int)ELFO;
@@ -31,8 +25,9 @@
 @property int forcaEscudo;
 @property Arma * armaPrimaria;
 @property Arma * armaSecundaria;
+@property Armadura * armadura;
 
--(Jogador *) initWithNome:(NSString *)n andRaca:(int)r andArmaPrimaria:(Arma *)ap andArmaSecundaria:(Arma *)as;
+-(Jogador *) initWithNome:(NSString *)n andRaca:(int)r andArmaPrimaria:(Arma *)ap andArmaSecundaria:(Arma *)as andArmadura:(Armadura *) _armadura;
 -(double) ataque:(Arena *)a andEscolhe:(int)e;
 -(void) sofrerAtaque:(double) forca;
 
