@@ -7,7 +7,7 @@
 //
 
 #import "FabricaArma.h"
-
+#import <time.h>
 @implementation FabricaArma
 
 
