@@ -12,6 +12,11 @@
 		271F246B1854F9B30024E200 /* Jogador.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F246A1854F9B30024E200 /* Jogador.m */; };
 		271F246E1854FBB50024E200 /* Arma.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F246D1854FBB50024E200 /* Arma.m */; };
 		271F24711854FEDE0024E200 /* LeagueOfOrientedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F24701854FEDE0024E200 /* LeagueOfOrientedObject.m */; };
+		F8A1C1371858C58C008345BD /* ArcoEFlecha.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A1C12E1858C58C008345BD /* ArcoEFlecha.m */; };
+		F8A1C1381858C58C008345BD /* Arena.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A1C1301858C58C008345BD /* Arena.m */; };
+		F8A1C1391858C58C008345BD /* Espada.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A1C1321858C58C008345BD /* Espada.m */; };
+		F8A1C13A1858C58C008345BD /* Machado.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A1C1341858C58C008345BD /* Machado.m */; };
+		F8A1C13B1858C58C008345BD /* Magia.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A1C1361858C58C008345BD /* Magia.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +42,16 @@
 		271F246D1854FBB50024E200 /* Arma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arma.m; sourceTree = "<group>"; };
 		271F246F1854FEDE0024E200 /* LeagueOfOrientedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueOfOrientedObject.h; sourceTree = "<group>"; };
 		271F24701854FEDE0024E200 /* LeagueOfOrientedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueOfOrientedObject.m; sourceTree = "<group>"; };
+		F8A1C12D1858C58C008345BD /* ArcoEFlecha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArcoEFlecha.h; path = LeagueOfObjectOriented/ArcoEFlecha.h; sourceTree = "<group>"; };
+		F8A1C12E1858C58C008345BD /* ArcoEFlecha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArcoEFlecha.m; path = LeagueOfObjectOriented/ArcoEFlecha.m; sourceTree = "<group>"; };
+		F8A1C12F1858C58C008345BD /* Arena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Arena.h; path = LeagueOfObjectOriented/Arena.h; sourceTree = "<group>"; };
+		F8A1C1301858C58C008345BD /* Arena.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Arena.m; path = LeagueOfObjectOriented/Arena.m; sourceTree = "<group>"; };
+		F8A1C1311858C58C008345BD /* Espada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Espada.h; path = LeagueOfObjectOriented/Espada.h; sourceTree = "<group>"; };
+		F8A1C1321858C58C008345BD /* Espada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Espada.m; path = LeagueOfObjectOriented/Espada.m; sourceTree = "<group>"; };
+		F8A1C1331858C58C008345BD /* Machado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Machado.h; path = LeagueOfObjectOriented/Machado.h; sourceTree = "<group>"; };
+		F8A1C1341858C58C008345BD /* Machado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Machado.m; path = LeagueOfObjectOriented/Machado.m; sourceTree = "<group>"; };
+		F8A1C1351858C58C008345BD /* Magia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Magia.h; path = LeagueOfObjectOriented/Magia.h; sourceTree = "<group>"; };
+		F8A1C1361858C58C008345BD /* Magia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Magia.m; path = LeagueOfObjectOriented/Magia.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,16 @@
 		271F244F1854A34F0024E200 = {
 			isa = PBXGroup;
 			children = (
+				F8A1C12D1858C58C008345BD /* ArcoEFlecha.h */,
+				F8A1C12E1858C58C008345BD /* ArcoEFlecha.m */,
+				F8A1C12F1858C58C008345BD /* Arena.h */,
+				F8A1C1301858C58C008345BD /* Arena.m */,
+				F8A1C1311858C58C008345BD /* Espada.h */,
+				F8A1C1321858C58C008345BD /* Espada.m */,
+				F8A1C1331858C58C008345BD /* Machado.h */,
+				F8A1C1341858C58C008345BD /* Machado.m */,
+				F8A1C1351858C58C008345BD /* Magia.h */,
+				F8A1C1361858C58C008345BD /* Magia.m */,
 				271F245D1854A34F0024E200 /* LeagueOfObjectOriented */,
 				271F245A1854A34F0024E200 /* Frameworks */,
 				271F24591854A34F0024E200 /* Products */,
@@ -150,8 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A1C13B1858C58C008345BD /* Magia.m in Sources */,
 				271F24711854FEDE0024E200 /* LeagueOfOrientedObject.m in Sources */,
+				F8A1C13A1858C58C008345BD /* Machado.m in Sources */,
+				F8A1C1371858C58C008345BD /* ArcoEFlecha.m in Sources */,
+				F8A1C1391858C58C008345BD /* Espada.m in Sources */,
 				271F246B1854F9B30024E200 /* Jogador.m in Sources */,
+				F8A1C1381858C58C008345BD /* Arena.m in Sources */,
 				271F245F1854A34F0024E200 /* main.m in Sources */,
 				271F246E1854FBB50024E200 /* Arma.m in Sources */,
 			);

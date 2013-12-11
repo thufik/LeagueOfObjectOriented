@@ -1,5 +1,5 @@
 //
-//  Arma.h
+//  Magia.h
 //  Loo
 //
 //  Created by ANDRE GIMENEZ on 11/18/13.
@@ -7,15 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Arma.h"
 
-@class Jogador;
-
-@interface Arma : NSObject {
-    double precisaoDoAtaque;
+@interface Magia : Arma {
+    int habilidade;
 }
 
-@property double precisaoDoAtaque;
-
--(Arma *) init;
+-(Magia *) initWithPrecisaoArma:(double) p andRaca:(int)r;
 -(double) calcularForcaAtaque:(int)raca;
+
 @end
