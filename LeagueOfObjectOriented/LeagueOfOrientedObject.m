@@ -35,7 +35,7 @@
 
 -(void) jogar {
     //srand((int)time(NULL));
-    Arena* arena = [[Arena alloc] init];
+    Arena* arena = [Arena sharedArena];
     NSLog(@"Arena: %@\n", [arena imprimirmapa]);
     
     int primeiro = rand() % 2 + 1;

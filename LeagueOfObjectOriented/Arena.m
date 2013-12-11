@@ -12,21 +12,13 @@ static const int PANTANO = 5;
 
 static Arena *sharedArena = nil;
 
--(Arena *) init {
++(Arena *) sharedArena {
     if(sharedArena == nil)
     {
         sharedArena = [[Arena alloc] init];
-        tipo = rand() % 5 + 1;
+        [sharedArena setTipo: rand() % 5 + 1];
     }
     return sharedArena;
-        
-    /* antigo
-    self = [super init];
-    if (self) {
-        tipo = rand() % 5 + 1;
-    }
-    return self;
-    */
 }
 
 -(double) calcularBonusArena:(Jogador *)jogador{

@@ -8,7 +8,10 @@
 
 @property int tipo;
 
--(Arena *) init;
++ (Arena *) sharedArena;
+
+// -(Arena *) init;
+
 -(NSString *) imprimirmapa;
 -(double) calcularBonusArena:(Jogador *)jogador;
 
