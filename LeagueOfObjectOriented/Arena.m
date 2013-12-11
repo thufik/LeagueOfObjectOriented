@@ -1,11 +1,3 @@
-//
-//  Arena.m
-//  Loo
-//
-//  Created by ANDRE GIMENEZ on 11/22/13.
-//  Copyright (c) 2013 Andre_Glauco. All rights reserved.
-//
-
 #import "Arena.h"
 
 @implementation Arena
@@ -18,12 +10,23 @@ static const int PLANICIE = 3;
 static const int CASTELO = 4;
 static const int PANTANO = 5;
 
+static Arena *sharedArena = nil;
+
 -(Arena *) init {
+    if(sharedArena == nil)
+    {
+        sharedArena = [[Arena alloc] init];
+        tipo = rand() % 5 + 1;
+    }
+    return sharedArena;
+        
+    /* antigo
     self = [super init];
     if (self) {
         tipo = rand() % 5 + 1;
     }
     return self;
+    */
 }
 
 -(double) calcularBonusArena:(Jogador *)jogador{
@@ -72,7 +75,7 @@ static const int PANTANO = 5;
     
    
     }
--(NSString *) imprimirmapa{
+-(NSString *) imprimirmapa {
     if (tipo == FLORESTA)
     //NSLog(@"Floresta");
         return @"Floresta";

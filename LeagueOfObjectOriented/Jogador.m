@@ -42,14 +42,15 @@ static int const ANAO = 3;
     return ANAO;
 }
 
--(Jogador *) initWithNome:(NSString *)n andRaca:(int)r andArmaPrimaria:(Arma *)ap andArmaSecundaria:(Arma *)as {
+-(Jogador *) initWithNome:(NSString *)n andRaca:(int)r andArmaPrimaria:(Arma *)ap andArmaSecundaria:(Arma *)as andArmadura:(Armadura *) _armadura {
     self = [super init];
     if (self) {
         nome = n;
         raca = r;
         vida = 1000;
-        armaPrimaria = ap;
+        armaPrimaria   = ap;
         armaSecundaria = as;
+        armadura       = _armadura;
     }
     return self;
 }
@@ -98,7 +99,7 @@ static int const ANAO = 3;
             break;
     }
     
-    if (forca - bonus - forcaEscudo <= 0) {
+    if (forca - bonus - forcaEscudo - [armadura getDefesa] <= 0) {
         return;
     }else{
         vida -= forca - bonus - forcaEscudo--;

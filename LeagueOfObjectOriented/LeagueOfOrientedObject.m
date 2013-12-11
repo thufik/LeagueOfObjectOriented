@@ -105,6 +105,8 @@
     NSString *nome1, *nome2;
     int raca1, raca2, forcaEscudo1, forcaEscudo2, arma1, arma2;
     Arma *principal1, *principal2, *secundaria1, *secundaria2;
+    Armadura * armadura1 = [[Armadura alloc] initWithDefesa: 5];
+    Armadura * armadura2 = [[Armadura alloc] initWithDefesa: 4];
     NSLog(@"\tJogador 1\n");
     NSLog(@"Nome: ");
     scanf("%s",s1);
@@ -120,7 +122,7 @@
     NSLog(@"Arma secundaria: ");
     scanf("%d",&arma1);
     secundaria1 = [FabricaArma retornaArma:arma1 deRaca:raca1];
-    player1 = [[Jogador alloc] initWithNome:nome1 andRaca:raca1 andArmaPrimaria:principal1 andArmaSecundaria:secundaria1];
+    player1 = [[Jogador alloc] initWithNome:nome1 andRaca:raca1 andArmaPrimaria:principal1 andArmaSecundaria:secundaria1 andArmadura: armadura1];
     NSLog(@"\tJogador 2\n");
     NSLog(@"Nome: ");
     scanf("%s",s2);
@@ -136,7 +138,7 @@
     NSLog(@"Arma secundaria: ");
     scanf("%d",&arma2);
     secundaria2 = [FabricaArma retornaArma:arma2 deRaca:raca2];
-    player2 = [[Jogador alloc] initWithNome:nome2 andRaca:raca2 andArmaPrimaria:principal2 andArmaSecundaria:secundaria2];
+    player2 = [[Jogador alloc] initWithNome:nome2 andRaca:raca2 andArmaPrimaria:principal2 andArmaSecundaria:secundaria2 andArmadura: armadura2];
     [self jogar];
 }
 
